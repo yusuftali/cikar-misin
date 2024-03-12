@@ -57,6 +57,8 @@ body{
     animation: color 3s linear infinite;
 }
 #p{
+  text-align: center;
+
   color: white;
 }
 #yusuf{
