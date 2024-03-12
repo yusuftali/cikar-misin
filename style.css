@@ -1,0 +1,95 @@
+body {
+  background-color: black;
+}
+
+.text-1 {
+  text-align: center;
+  font-size: 50px;
+  font-weight: 100%;
+  color: transparent;
+  background: rgb(255, 0, 0);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 0, 0, 1) 0%,
+    rgba(238, 100, 10, 1) 7%,
+    rgba(210, 169, 39, 1) 14%,
+    rgba(234, 252, 62, 1) 21%,
+    rgba(134, 248, 82, 1) 28%,
+    rgba(99, 245, 156, 1) 35%,
+    rgba(87, 241, 215, 1) 42%,
+    rgba(75, 216, 237, 1) 49%,
+    rgba(66, 158, 239, 1) 56%,
+    rgba(57, 74, 241, 1) 63%,
+    rgba(126, 45, 244, 1) 70%,
+    rgba(162, 84, 247, 1) 77%,
+    rgba(229, 117, 249, 1) 84%,
+    rgba(251, 103, 164, 1) 91%,
+    rgba(253, 127, 190, 1) 98%,
+    rgba(255, 0, 191, 1) 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  background-size: 500%;
+  animation: color 3s linear infinite;
+}
+.buttons {
+  text-align: center;
+  height: 10px;
+  margin-top: 5%;
+text-decoration: none;
+}
+a, a:focus, a:active {
+  text-decoration: none;
+  outline: none;
+  border: none;
+}
+
+#mobile, #pc {
+  text-decoration: none;
+  border-radius: 40px;
+  width: 200px;
+  height: 150px;
+  font-size: 32px;
+  text-align: center;
+  font-weight: 100%;
+  color: transparent;
+  background-size: 500%;
+  animation: color 3s linear infinite;
+  line-height: 150px; /* Yüksekliği ve içerik hizalamayı düzenler */
+  border: none; /* Herhangi bir varsayılan tarayıcı çerçevesini kaldırır */
+  outline: none; /* Odaklanma sırasında görünen çerçeveyi kaldırır */
+}
+
+/* Eğer butonlar hala düzgün hizalanmıyorsa, display özelliğini ekleyebilirsiniz. */
+#mobile, #pc {
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 100%;
+  color: transparent;
+  background: rgb(255, 0, 0);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 0, 0, 1) 0%,
+    rgba(238, 100, 10, 1) 7%,
+    rgba(210, 169, 39, 1) 14%,
+    rgba(234, 252, 62, 1) 21%,
+    rgba(134, 248, 82, 1) 28%,
+    rgba(99, 245, 156, 1) 35%,
+    rgba(87, 241, 215, 1) 42%,
+    rgba(75, 216, 237, 1) 49%,
+    rgba(66, 158, 239, 1) 56%,
+    rgba(57, 74, 241, 1) 63%,
+    rgba(126, 45, 244, 1) 70%,
+    rgba(162, 84, 247, 1) 77%,
+    rgba(229, 117, 249, 1) 84%,
+    rgba(251, 103, 164, 1) 91%,
+    rgba(253, 127, 190, 1) 98%,
+    rgba(255, 0, 191, 1) 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  background-size: 500%;
+  animation: color 3s linear infinite;
+}
